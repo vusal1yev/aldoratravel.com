@@ -1,0 +1,51 @@
+{
+  "shared": {
+    "navigate": [
+      "Ana Sayfa",
+      "Popüler Turlar",
+      "Özel Teklif",
+      "Destinasyon Galerisi",
+      "Gezgin Deneyimleri",
+      "İletişim"
+    ],
+    "language": {
+      "english": "İngilizce",
+      "russian": "Rusça",
+      "polish": "Lehçe",
+      "turkish": "Türkçe"
+    },
+    "contact": {
+      "phone": "+90 546 655 47 85",
+      "mail": "thealdoratravel@gmail.com",
+      "address": "Antalya/Kemer"
+    }
+  },
+  "introduction": {
+    "title": "Aldora Travel ile Türkiye’nin eşsiz güzelliklerini keşfedin.",
+    "subtitle": "Aldora Travel olarak, profesyonel rehberlerimiz ve seyahat danışmanlarımızla 20 yılı aşkın deneyimimizi sizlere sunuyoruz. Antalya merkezli olarak tüm Türkiye’de hizmet veriyor ve unutulmaz seyahat deneyimleri yaratıyoruz."
+  },
+  "about": {
+    "head": {
+      "title": "Hakkımızda",
+      "subtitle": "Dünyadaki inanılmaz deneyime bir bakış"
+    }
+  },
+  "destinations": {
+    "head": {
+      "title": "Popüler Turlar",
+      "subtitle": "Müşterilerimizin seçtiği en popüler turlarımızdan bazıları."
+    }
+  },
+  "offers": {
+    "head": {
+      "title": "Özel Teklif",
+      "subtitle": "Özel tekliflerimizi ve indirimlerimizi keşfedin"
+    }
+  },
+  "gallery": {
+    "head": {
+      "title": "Galeri",
+      "subtitle": "Gezilerimizden fotoğraf galerimiz"
+    }
+  }
+}

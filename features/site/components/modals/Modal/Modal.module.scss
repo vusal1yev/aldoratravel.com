@@ -1,0 +1,32 @@
+@use "../../../assets/styles/variable" as vars;
+
+.modal {
+  position: fixed;
+  z-index: 5;
+  left: -100vw;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background: vars.$color-white;
+  transition: left 0.5s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .modal__close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  &.open {
+    left: 0;
+  }
+}

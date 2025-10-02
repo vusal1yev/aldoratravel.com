@@ -1,0 +1,51 @@
+{
+  "shared": {
+    "navigate": [
+      "Home",
+      "Popular Tours",
+      "Special Offer",
+      "Destination Gallery",
+      "Traveler’s Experiences",
+      "Contact"
+    ],
+    "language": {
+      "english": "English",
+      "russian": "Русский",
+      "polish": "Polski",
+      "turkish": "Türkçe"
+    },
+    "contact": {
+      "phone": "+90 546 655 47 85",
+      "mail": "thealdoratravel@gmail.com",
+      "address": "Antalya/Kemer"
+    }
+  },
+  "introduction": {
+    "title": "Explore amazing beauty of Turkey with Aldora Travel.",
+    "subtitle": "At Aldora Travel, we bring over 20 years of experience through our professional tour guides and travel consultants. Based in Antalya and serving all across Turkey, we are dedicated to creating unforgettable travel experiences."
+  },
+  "about": {
+    "head": {
+      "title": "About us",
+      "subtitle": "An insight the incredible experience in the world"
+    }
+  },
+  "destinations": {
+    "head": {
+      "title": "Popular Tours",
+      "subtitle": "Most popular tours chosen by our customers, from our tours."
+    }
+  },
+  "offers": {
+    "head": {
+      "title": "Special Offer",
+      "subtitle": "Check out our special offer and discounts"
+    }
+  },
+  "gallery": {
+    "head": {
+      "title": "Gallery",
+      "subtitle": "Our photo gallery from trips"
+    }
+  }
+}

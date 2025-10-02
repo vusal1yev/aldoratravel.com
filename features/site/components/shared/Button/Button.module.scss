@@ -1,0 +1,26 @@
+@use "@/features/site/assets/styles/variable" as vars;
+
+.button {
+  padding: 12px 32px;
+
+  background: vars.$color-secondary;
+  border-radius: vars.$border-radius;
+  color: vars.$color-white;
+
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  & a {
+    color: vars.$color-primary;
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    padding: 8px 16px;
+  }
+}

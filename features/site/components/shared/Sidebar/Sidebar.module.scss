@@ -1,0 +1,139 @@
+@use "@/features/site/assets/styles/variable" as vars;
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  z-index: 4;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 240px 80px 80px;
+  background-color: vars.$color-secondary;
+  transition: left 0.5s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    & .link {
+      position: relative;
+      width: fit-content;
+      font-family: "Playfair Display", serif;
+      font-size: 32px;
+      font-weight: 400;
+      color: vars.$color-white;
+
+      &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -10px;
+        transition: width 0.5s ease;
+
+        width: 0;
+        height: 2px;
+        background-color: #ffffff;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 32px;
+
+    & .languages {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      & .language {
+        font-family: "Rubik", serif;
+        font-size: 32px;
+        font-weight: 100;
+        color: vars.$color-white;
+      }
+    }
+
+    & .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      & .item {
+        font-family: "Rubik", serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: vars.$color-white;
+      }
+    }
+  }
+
+  &.open {
+    left: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .sidebar {
+    padding: 140px 60px 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    padding: 140px 40px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    &__content {
+      gap: 24px;
+
+      & .link {
+        font-size: 28px;
+      }
+    }
+
+    &__footer {
+      flex-direction: column;
+      align-items: flex-start;
+
+      & .languages {
+        gap: 8px;
+
+        & .language {
+          font-size: 28px;
+        }
+      }
+
+      & .contact {
+        & .item {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    padding: 120px 22px 22px;
+  }
+}

@@ -1,0 +1,12 @@
+.destination__update {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  & .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+}
